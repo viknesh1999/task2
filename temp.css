@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 115px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo{
+    float: left;
+    margin-top: 37px;
+    margin-left: 133px;
+}
+.ul{
+  float: left;
+  margin-left: 300px;
+
+}
+.ul li{
+  display:inline-block;
+  margin-left:20px;
+  margin-top: 50px;
+}
+.ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.ul a:hover {
+  background-color: gainsboro;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+  
+}
+.dropdowncontent{
+  position: absolute;
+  display:none;
+  top: 78px;
+  width: 42%;
+ background-color: thistle;
+  left: 20px;
+}
+.dropdowncontent a{
+  display: block;
+  text-decoration: none;
+  color: coral;
+  width: 80%;
+  font-size: 20px;
+ padding: 12px 12px;
+}
+.dropdown:hover .dropdowncontent{
+  display: block;
+
+}
+.content{
+  width: 100%;
+  height: 640px;
+  background-color: slategrey;
+}
+.contentlabel
+{
+  width: 40%;
+  height:640px;
+  background-color: tomato;
+  float: left;
+  background-image: url(./image/top-left-bg.jpg);
+}
+.contentpic{
+  width: 60%;
+  height: 640px;
+  float: right;
+  background-color: violet;
+  background-image:url(./image/slide-02.jpg);
+  position: relative;
+}
+.klassydiv{
+  position: absolute;
+  top: 284px;
+  left: 178px;
+}
+.contenth1{
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+}
+.bestdiv{
+  position: relative;
+  top: 57px;
+  left: -3px;
+}
+.bestpara{
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+}
+.reservationdiv{
+  margin-top: 88px;
+  margin-left: 6px;
+  display: inline-block;
+}
+.reservationdiv a{
+  font-size: 13px;
+  padding: 12px 25px;
+  border-radius: 3px;
+  color: coral;
+  background-color: white;
+  text-decoration: none;
+}
+.reservationdiv a:hover{
+  background-color: whitesmoke;
+}
+.outlinediv{
+  width: 100%;
+  height: 750px;
+  background-color: white;
+}
+.containerdiv{
+  width: 83%;
+  height: 535px;
+  background-color: white;
+  float: left;
+  margin-left: 107px;
+  margin-top: 110px;
+}
+.aboutusdiv{
+  width: 50%;
+  height: 535px;
+  background-color:white;
+  float: left;
+}
+.picdiv{
+  width: 50%;
+  height: 535px;
+  float: right;
+  background-image: url(./image/about-video-bg.jpg);
+}
+.sectionaboutus{
+  font-size: 24px;
+  color: coral;
+  letter-spacing: 3px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 9px;
+}
+.sectionh2{
+  line-height: 40px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  font-size: 21px;
+  font-weight: 900;
+  color: #2a2a2a;
+}
+.klassycafeparadiv{
+  margin-top: 20px;
+}
+.klassycafepara{
+  font-size: 14px;
+  line-height: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2a2a2a;
+}
+.klassycafepara a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.outlinediv1{
+  width: 100%;
+  height: 800px;
+}
+.containerdiv1{
+  width: 100%;
+  height: 300px;
+}
+.sectionourmenu{
+  font-size: 24px;
+  color: coral;
+  letter-spacing: 3px;
+  float: left;
+  margin-left: 192px;
+  margin-top: 85px;
+}
+.sectionh2{
+  line-height: 40px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  font-size: 21px;
+  font-weight: 900;
+  color: #2a2a2a;
+}
+.containerdiv2{
+  width: 100%;
+  height: 400px;
+}
+.menupicturediv{
+  width: 19%;
+  height: 400px;
+  background-color: darkgrey;
+  float: left;
+}
+.menupicturediv2{
+  width: 19%;
+  height: 400px;
+  background-color: darkgrey;
+  float: left;
+  margin-left: 15px;
+}
+.menupicturediv3{
+  width: 19%;
+  height: 400px;
+  background-color: darkgrey;
+  float: left;
+  margin-left: 15px;
+}
+.menupicturediv4{
+  width: 19%;
+  height: 400px;
+  background-color: darkgrey;
+  float: left;
+  margin-left: 15px;
+}
+.menupicturediv5{
+  width: 19%;
+  height: 400px;
+  background-color: darkgrey;
+  float: left;
+  margin-left: 22px;
+}
+.cakepic1{
+  width: 100%;
+  height: 400px;
+}
+.cakepic2{
+  width: 100%;
+  height: 400px;
+  
+}
+.cakepic3{
+  width: 100%;
+  height: 400px;
+
+}
+.cakepic4{
+  width: 100%;
+  height: 400px;
+ 
+}
+.cakepic5{
+  width: 100%;
+  height: 400px;
+
+}
+
+
+.containerdiv3{
+  width: 100%;
+  height: 800px;
+  background-color: white;
+}
+.sectionourchief{
+  font-size: 24px;
+  color: coral;
+  letter-spacing: 3px;
+  float: left;
+  margin-left: 192px;
+  margin-top: 85px;
+  position: relative;
+}
+.sectionourchiefh2{
+  line-height: 40px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  font-size: 21px;
+  font-weight: 900;
+  color: #2a2a2a;
+}
+.chiefpicdiv{
+  width: 27%;
+  height: 420px;
+  position: relative;
+  background-color: darkorange;
+  float: left;
+  margin-top: 265px;
+  margin-left: -445px;
+}
+.chiefpic{
+  width: 98%;
+  height: 300px;
+  background-color: black;
+  position: absolute;
+  left: 3px;
+}
+.img1{
+  width: 100%;
+  height: 100%;
+}
+.imgcontent{
+  width: 100%;
+  height: 118px;
+  background-color: white;
+  position: absolute;
+  top: 301px;
+}
+.imgh6{
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 35px;
+  left: 74px;
+}
+.imgp{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 65px;
+  left: 115px;
+}
+.chiefpicdiv2{
+  width: 27%;
+  height: 420px;
+  position: relative;
+  background-color: darkorange;
+  float: left;
+  margin-top: 265px;
+  margin-left: -55px;
+}
+.chiefpicdiv3{
+  width: 27%;
+  height: 420px;
+  position: relative;
+  background-color: darkorange;
+  float: left;
+  margin-top: 265px;
+  margin-left: 30px;
+}
+.conclusiondiv{
+  width: 100%;
+  height: 175px;
+  background-color: darkkhaki;
+}
+.facebook{
+  float: left;
+  margin-top: 73px;
+  margin-left: 131px;
+}
+.twitter{
+  float: left;
+  margin-top: 73px;
+  margin-left: 30px;
+}
+.email{
+  float: left;
+  margin-top: 73px;
+  margin-left: 30px;
+}
+.classylogo{
+  float: left;
+  margin-top: 73px;
+  margin-left: 172px;
+}
+.copyrights{
+  float: left;
+  margin-top: 73px;
+  margin-left: 394px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:680px)
+{
+  .header{
+    width: 100%;
+  }
+  .ul{
+    display: none;
+  }
+  .contentlabel{
+    width: 100%;
+  }
+}
+  @media screen and (max: width 680px){
+  .contentpic{
+    width: 100%;
+  }
+  .logo{
+    margin-left: 67px;
+  }
+  .klassydiv{
+    margin-left: 67;
+  }
+}

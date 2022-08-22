@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.masthead{
+    height: 100vh;
+}
+.textcenter{
+    text-align: center;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.d-flex{
+    display: flex;
+}
+.btn {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+    padding: 1.25rem 2rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+}
+.about-section {
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.projects-section{
+    padding: 10rem 0;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+ .bg-black{
+   background-color: #000;
+}
+.h-100 {
+    height: 100% !important;
+}
+.d-flex {
+    display: flex !important;
+}
+.signup-section {
+    padding: 10rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(./image/bg-signup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.path{
+    width: 10px;
+    height: 10px;
+}
+.contact-section {
+    padding-top: 5rem;
+}
+.contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;
+}
+
+
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+.contact-section .social {
+    margin-top: 5rem;
+}
+.footer {
+    padding: 5rem 0;
+}
+
+.projects-section .project-text {
+    padding: 5rem;
+}
+.projects-section .featured-text {
+    padding: 0 0 0 2rem;
+
+}
+

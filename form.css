@@ -1,0 +1,27 @@
+
+.heading{
+    text-align: center;
+    padding-top: 68px;
+}
+.form{
+   text-align: center;
+   margin-top: 43px;
+}
+.head{
+    color: red;
+}
+ .background{
+     background-image: url(./image/college\ img.jpg);
+     height: 600px;
+ }
+ .input{
+     width: 255px;
+     height: 31px;
+ }
+ .background1{
+     background-color: azure;
+     width: 41%;
+     height: 600px;
+     margin: 0 auto;
+ }
+

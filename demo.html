@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div class="background">
+    <div class="background1">
+    <h2 class="heading">Login Form</h2>
+    <div class="form">
+        <input class="input" type="text" id="name" placeholder="FULL NAME">
+        <p id="head"></p>
+        <input class="input" type="text" id="Email" placeholder="EMAIL ID">
+        <p id="head1"></p>
+        <input class="input" type="text" id="phone" placeholder="PHONE NO">
+        <p id="head2"></p>
+        <input class="input" type="text" id="password" placeholder="Password">
+        <p id="head3"></p>
+        <input class="input" type="text" id="pwd" placeholder="Confirm Password">
+        <p id="head4"></p>
+        <div class="data" style="margin-top: 35px;">
+            <input type="radio" id="cse" name="read" value="degree">
+            <label for="cse">CSE</label>
+            <input type="radio" id="civil" name="read" value="degree">
+            <label for="cse">CIVIL</label>
+            <input type="radio" id="mech" name="read" value="degree">
+            <label for="cse">MECH</label>
+            <p id="head6"></p>
+        </div> 
+        <div class="label" style="margin-top: 10px;">
+            <select name="select" id="college">
+                <option value="0">select your college</option>
+                <option value="1">Hicas</option>
+                <option value="2">PSG</option>
+                <option value="3">SNR</option>
+                <option value="4">SNS</option>
+            </select>
+            <p id="head5"></p>
+
+        </div>
+        <div class="check" style="margin-top: 22px;">
+            <input type="checkbox" id="accept" name="agree" value="1">
+            <label for="accept">i accept and aggree the condition</label>
+            <p id="head7"></p>
+        </div>
+        
+        <button class="button" onclick="fun12()">Sign In</button>
+     </div>
+
+    </div>
+
+    </div>
+</body>
+
+<script>
+    function fun12()
+    {
+        var name=document.getElementById("name").value
+        var fnamepattern=/^[A-Za-z]+$/;
+        if(name==null||name=="")
+        {
+            document.getElementById("head").innerHTML="*please enter the name*";
+
+        }
+        else if(!fnamepattern.test(name))
+        {
+            document.getElementById("head").innerHTML="*please enter the valid name*";
+        }
+        else{
+            document.getElementById("head").innerHTML="";
+        }
+
+         var email=document.getElementById("Email").value
+         var gmailpattern= /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+         if(email==null||email=="")
+         {
+         document.getElementById("head1").innerHTML="*please enter your email*";
+         }
+         else if(!gmailpattern.test(email)){
+           document.getElementById("head1").innerHTML="*please enter the valid email*";
+         }
+         else{
+         document.getElementById("head1").innerHTML="";
+         }
+
+         var phone=document.getElementById("phone").value
+        var hphonepattern= /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/; 
+        if(phone==null||phone=="")
+        {
+            document.getElementById("head2").innerHTML="*please enter your phone number*";
+         }
+        else if(!hphonepattern.test(phone))
+        {
+           document.getElementById("head2").innerHTML="*please enter valid phone number*";
+         }
+         else{
+            document.getElementById("head2").innerHTML="";
+         }
+
+         var password=document.getElementById("password").value
+         var ipasswordpattern= /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+         if(password==null||password=="")
+         {
+            document.getElementById("head3").innerHTML="*please enter your password*";
+        }
+         else if(!ipasswordpattern.test(password))
+         {
+            document.getElementById("head3").innerHTML="*please enter valid password*";
+         }
+         else{
+             document.getElementById("head3").innerHTML="";
+         }
+
+         var pwd=document.getElementById("pwd").value
+         var jpwdpattern= /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+         if(pwd==null||pwd=="")
+         {
+             document.getElementById("head4").innerHTML="*please enter confirm your password*";
+         }
+         else if(!jpwdpattern.test(pwd))
+         {
+             document.getElementById("head4").innerHTML="*please enter valid confirm password*";
+         }
+         else{
+            document.getElementById("head4").innerHTML="";
+         }
+        
+         var college=document.getElementById("college").value
+        if(study==0)
+        {
+            document.getElementById("head5").innerHTML="*please select your college*";
+         }
+        else{
+            document.getElementById("head5").innerHTML="";
+         }
+
+         if((document.getElementById("cse").checked==true||document.getElementById("civil").checked==true||document.getElementById("mech").checked==true))         
+          {
+              document.getElementById("head6").innerHTML="";
+          }  
+          else{
+              document.getElementById("head6").innerHTML="*please select any degree*"
+          }  
+          if((document.getElementById("accept").checked==true))
+          {
+              document.getElementById("head7").innerHTML="";
+          }
+         else{
+              document.getElementById("head7").innerHTML="*please check the condition*"
+          }
+
+        }   
+</script>
+</html>
